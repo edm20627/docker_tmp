@@ -1,6 +1,6 @@
 FROM golang:1.15.1
 
-WORKDIR /go/src/app
+WORKDIR /go/src/github.com/edm20627/project
 
 ENV GO111MODULE=on
 

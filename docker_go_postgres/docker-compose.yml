@@ -9,7 +9,7 @@ services:
     environment:
       - TZ=Japan
     volumes:
-      - .:/go/src/app
+      - .:/go/src/github.com/edm20627/project
     ports:
       - 8080:8080
     depends_on:
